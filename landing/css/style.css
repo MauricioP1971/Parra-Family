@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
 
-@import url('use.fontawesome.com/release/v5.6.3/css/all.css');
-
 @import url(components/banner.css);
-@import url('components/container.css');
+@import url(components/container.css);
 
 body {
   margin: 0;
-  font-size: Open Sans;
+  font-family: Open Sans;
 }
 
 h1, h2, h3, h4 {
@@ -18,21 +16,7 @@ a {
   text-decoration: none;
 }
 
-.banner {
-  padding: 200px 0;
-  background-size: cover;
-  background-position: center;
-  height: 500px;
+.text-center {
+  text-align:
 }
-
-.banner h1 {
-  color: white;
-}
-
-.banner p {
-  color: white;
-  font-size: 20px;
-}
-
-
 
