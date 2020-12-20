@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
 
-@import url(components/banner.css);
+/* The error was a small one, and neither of us noticed...you were missing the quotation marks! :D */
+@import url('components/banner.css');
 /*@import url(components/container.css);*/
 
 body {
@@ -19,4 +20,3 @@ a {
 .text-center {
   text-align:
 }
-

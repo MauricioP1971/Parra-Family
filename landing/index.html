@@ -4,12 +4,18 @@
   <meta charset="UTF-8">
   <title>Parra Family</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link rel="shortcut icon" href="data:imgage/x-icon;" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon"> -->
+
+  <!-- The favicon.ico error happens because if you don't set an explicit favicon here in the metadata,
+            your browser will default to looking for one in the root folder, hence '/favicon.ico' as the path. -->
+  <link rel="icon" type="image/png" href="images/family.png">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="banner" style="background-image: url(landing/images/background.jpg);">
+  <!-- Careful with the folder structure: you're already in 'landing', no need to have it again in the filepath! -->
+  <div class="banner" style="background-image: url('images/background.jpg');">
     <div class="container">
       <h1>Los Parra - Una familia con mucha historia</h1>
       <p>Desde Colombia via Alemania, España, Sudafrica hasta Bilbao y Berlin</p>
@@ -18,5 +24,3 @@
   </div>
 </body>
 </html>
-
-
